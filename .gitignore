@@ -23,3 +23,17 @@ Thumbs.db
 # Editor
 .vscode/
 .idea/
+
+# Larimunch knowledge base — private business docs, not part of the website
+00_START_HERE.md
+01_Foundation/
+02_Product/
+03_Customers/
+04_Customer_Discovery/
+05_Business_Model/
+06_Brand/
+07_Operations/
+08_Financials/
+09_Legal/
+10_Planning/
+99_Reference/

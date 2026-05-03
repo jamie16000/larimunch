@@ -27,14 +27,15 @@ export default function Home() {
         </p>
       </section>
 
-      {/* ---------- Sign-up CTA (moved up: visitors see this without scrolling) ---------- */}
+      {/* ---------- Sign-up CTA: parent-interview recruitment ---------- */}
       <section className="signup" id="signup">
-        <h2>Want to taste?</h2>
+        <h2>Want to talk?</h2>
         <p>
-          We're hosting small tasting events (Malmö, Sweden) and parent
-          interviews (you decide time and place, online possible) as we
-          shape the first Larimunch mini-meals. Drop your phone number if
-          you'd love to be part of it.
+          I'm Lara — I'm building Larimunch in conversation with real
+          parents in Malmö and around. Before any product gets made, I'm
+          listening: the wins, the chaos, the wishes. 30 minutes, your
+          time and place — your home, a café, a video call, or a
+          lunch-party event with other parents. I'd love to hear from you.
         </p>
         <SignupForm />
       </section>
