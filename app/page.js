@@ -1,3 +1,5 @@
+import TastingForm from './components/TastingForm';
+
 // This is the homepage (the page at "/").
 // Edit any of the text below to change what visitors see.
 export default function Home() {
@@ -24,12 +26,7 @@ export default function Home() {
           we're hosting a small tasting lunch in Malmö where a handful of
           families get to try the first batch and tell us what they think.
         </p>
-        <a
-          className="cta-link"
-          href="mailto:lara.eipel@gmail.com?subject=Larimunch tasting event"
-        >
-          Send us a message to join the list
-        </a>
+        <TastingForm />
       </section>
 
       {/* ---------- Story ---------- */}
