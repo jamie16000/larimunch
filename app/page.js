@@ -1,43 +1,43 @@
-import SignupForm from './components/SignupForm';
-
 // This is the homepage (the page at "/").
 // Edit any of the text below to change what visitors see.
 export default function Home() {
   return (
     <>
-      {/* ---------- Top header with horizontal logo ---------- */}
+      {/* ---------- Top header with logo ---------- */}
       <header className="site-header container">
         <img
-          src="/logo-horizontal.jpeg"
+          src="/logo-new.png"
           alt="Larimunch — real food, real laughter"
         />
       </header>
 
       {/* ---------- Hero ---------- */}
       <section className="hero container">
-        <div className="logo-circle">
-          <img src="/logo-circle.jpeg" alt="Larimunch logo" />
+        <div className="hero-logo">
+          <img src="/logo-new.png" alt="Larimunch logo" />
         </div>
-        <h1>Larimunch</h1>
         <p className="tagline">real food · real laughter</p>
         <p className="intro">
-          We're making tiny meals for tiny humans — wholesome, joyful, and
-          made with the kind of care a parent puts into a snack pulled from
-          their own pocket.
+          Heat-and-eat family meals made from real ingredients — designed
+          for kids, enjoyed by everyone at the table.
         </p>
       </section>
 
-      {/* ---------- Sign-up CTA: parent-interview recruitment ---------- */}
-      <section className="signup" id="signup">
-        <h2>Want to talk?</h2>
+      {/* ---------- Tasting event teaser ---------- */}
+      <section className="signup" id="tasting">
+        <h2>The lunch party is coming</h2>
         <p>
-          I'm Lara — I'm building Larimunch in conversation with real
-          parents in Malmö and around. Before any product gets made, I'm
-          listening: the wins, the chaos, the wishes. 30 minutes, your
-          time and place — your home, a café, a video call, or a
-          lunch-party event with other parents. I'd love to hear from you.
+          We're cooking up the first Larimunch box — four family meals,
+          ready in minutes, made to taste like home. Before you can order,
+          we're hosting a small tasting lunch in Malmö where a handful of
+          families get to try the first batch and tell us what they think.
         </p>
-        <SignupForm />
+        <a
+          className="cta-link"
+          href="mailto:lara.eipel@gmail.com?subject=Larimunch tasting event"
+        >
+          Send us a message to join the list
+        </a>
       </section>
 
       {/* ---------- Story ---------- */}
@@ -50,14 +50,17 @@ export default function Home() {
               table, with a kid who'd rather eat the box than the broccoli.
             </p>
             <p>
-              We're a small brand exploring an old idea — that mini-meals
-              for kids can be <em>real food</em>, full of the things they
-              actually need, and still feel like a little party.
+              We spent months talking to families across Malmö — listening
+              to the wins, the chaos, the mealtime negotiations. What we
+              heard was the same thing everywhere: parents want{' '}
+              <em>real food</em> on the table, without cooking from scratch
+              every single night.
             </p>
             <p>
-              Right now we're in the listening phase. Talking with parents.
-              Cooking small batches. Watching tiny faces light up — or
-              pucker up. Both teach us something.
+              So now we're cooking. The first Larimunch box will have four
+              family meals — heat-and-eat, made from real ingredients,
+              mild enough for kids and flavourful enough for the adults
+              sharing the plate.
             </p>
           </div>
         </div>
@@ -80,8 +83,8 @@ export default function Home() {
             <span className="icon">🌱</span>
             <h3>Built with parents</h3>
             <p>
-              We listen, taste, tweak, repeat. You shape what Larimunch
-              becomes.
+              Three months of listening. Now we're cooking. You'll shape
+              what Larimunch becomes.
             </p>
           </div>
         </div>

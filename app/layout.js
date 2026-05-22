@@ -19,7 +19,7 @@ const nunito = Nunito({
 export const metadata = {
   title: 'Larimunch — real food · real laughter',
   description:
-    'Mini-meals for kids that make mealtime joyful. Join our tasting events and help shape what Larimunch becomes.',
+    'Heat-and-eat family meals made from real ingredients — designed for kids, enjoyed by everyone at the table. Coming soon to Malmö.',
 };
 
 export default function RootLayout({ children }) {
