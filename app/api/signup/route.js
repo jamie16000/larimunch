@@ -9,7 +9,7 @@
 //      that help evaluate the diversity of the interviewee mix.
 
 const LARA_PHONE = '+46733361746';
-const NOTIFICATION_TAG = 'Parent interview signup — Larimunch';
+const NOTIFICATION_TAG = 'Tasting event signup — Larimunch';
 
 // Pretty labels for select-field values that come in as keys
 const FORMAT_LABEL = {
