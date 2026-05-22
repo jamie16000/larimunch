@@ -3,18 +3,10 @@
 export default function Home() {
   return (
     <>
-      {/* ---------- Top header with logo ---------- */}
-      <header className="site-header container">
-        <img
-          src="/logo-new.png"
-          alt="Larimunch — real food, real laughter"
-        />
-      </header>
-
       {/* ---------- Hero ---------- */}
       <section className="hero container">
         <div className="hero-logo">
-          <img src="/logo-new.png" alt="Larimunch logo" />
+          <img src="/logo-website.png" alt="Larimunch logo" />
         </div>
         <p className="tagline">real food · real laughter</p>
         <p className="intro">
